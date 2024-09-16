@@ -1,0 +1,111 @@
+html {
+    font-size: 62.5%;   
+    box-sizing: border-box; /* Hack para Box model/Responsive */   
+}
+
+/* Se coloca para al hacer padding y no se agranden los px */
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+html {margin-top: 0%;}
+
+body {
+  font-size: 60px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.title {
+  background-color: rgba(255, 0, 0, 0.313);
+  text-align: center;
+  margin: 2rem;
+}
+.title h1 {
+  font-size: 5rem;
+  padding:2rem;
+  
+}
+
+.cont_nav {
+  display: flex;
+  background-color: aquamarine;
+  margin: 2rem;
+  justify-content: space-around;
+
+  border-width: 0.2rem;
+  border-color: black;
+  border-style: solid;
+  border-radius: 1rem;
+}
+
+.cont_nav a {
+  text-decoration: none;
+  color: black;
+  
+}
+
+.cont_p {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+
+.cont {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  margin: 0rem 2rem;
+  gap: 20px;
+  font-size: 20px;
+
+}
+
+.card {
+  display: grid;
+
+  background-color: burlywood;
+  text-align: center;
+  align-items: center;
+  
+  margin: 0;
+  height: 30rem;
+  padding: 2rem;
+
+  border-width: 0.2rem;
+  border-color: black;
+  border-style: solid;
+  border-radius: 1rem;
+
+  width: 100%;
+}
+
+
+.sect {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  background-color: blueviolet;
+  margin-right: 20px;
+
+  border-width: 0.2rem;
+  border-color: black;
+  border-style: solid;
+  border-radius: 1rem;
+}
+
+footer {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+
+  border-width: 0.2rem;
+  border-color: black;
+  border-style: solid;
+  border-radius: 1rem;
+}
