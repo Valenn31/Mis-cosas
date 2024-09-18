@@ -92,7 +92,7 @@ while resp.lower() == "s":
 # Mostrar los perfiles creados
 borrar_pantalla()
 for Doc in documentacion:
-     print(Doc)
+    print(Doc)
 
 # Salir del programa (libreria keyboard)
 print("""  ______________________________""")
