@@ -1,5 +1,7 @@
 :root {
-    --Principal: rgb(100, 35, 90);
+    --Principal: RGB(133,51,159);
+    --Secundario: RGB(245,145, 80);
+    --fuente: url(fonts/Bulgatti.ttf);
 }
 
 html {
@@ -23,6 +25,7 @@ html {
 
 .encabezado__logo {
     position: absolute;
+
     left: 1rem; /* Ajusta la distancia desde el borde izquierdo */
     width: 10rem;
     height: 10rem;
@@ -58,10 +61,11 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
+    box-shadow: 10px 10px 129px 56px rgba(0,0,0,0.75) inset;
 
     display: flex;
     flex-direction: column;
-    width: 100%;
     height: 40rem;
     align-items: center;
     justify-content: center;
@@ -70,13 +74,17 @@ html {
 
 .imagen__logo {
     background-image: url(img/logo.png);
-    width: 15rem;
-    height: 15rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 20rem;
+    margin: 0 auto;
 }
 
 .imagen__titulo {
     font-size: 6rem;
-    color: var(--Principal);
+    color: var(--Secundario);
+    font-family: var(--fuente);
 }
 
 .imagen__subtitulo {
