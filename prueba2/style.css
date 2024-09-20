@@ -42,5 +42,5 @@ html, body {
 }
 
 .cuadrado:hover, .cuadrado2:hover {
-    background-color: red;
+    transform:rotateY(90);
 }
