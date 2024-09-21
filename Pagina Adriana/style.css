@@ -12,10 +12,9 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
-    width: 60%;
-    margin: 0 auto;
   }
-  
+
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -40,9 +39,16 @@ html {
 .encabezado__titulo {
     font-size: 2.7vw;
     font-family: 'bulgatti';
+    color: var(--Secundario);
 }
 
 /* Navegacion */
+
+.barra {
+    width: 100%;
+    height: 1rem;
+    background-color: var(--Principal);
+}
 
 .navegacion {
     display: flex;
@@ -72,7 +78,7 @@ html {
 
     display: flex;
     flex-direction: column;
-    height: 70rem;
+    height: 60rem;
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
