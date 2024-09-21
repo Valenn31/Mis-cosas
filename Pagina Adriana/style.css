@@ -52,17 +52,20 @@ html {
 
 .navegacion {
     display: flex;
-    background-color: var(--Principal);
-    justify-content: center;
+    flex-direction: column;
     margin-top: 1rem;
 }
 
-.navegacion__item {
+.navegacion__items {
+    text-align: center;
+}
+
+.navegacion__items--item {
     font-size: 4rem;
     margin: 0 6rem;
 }
 
-.navegacion__item:hover {
+.navegacion__items--item:hover {
     cursor: pointer;
 }
 
