@@ -4,6 +4,11 @@
     --fuente: url(fonts/Bulgatti.ttf);
 }
 
+@font-face {
+    font-family: 'bulgatti';
+    src: url(fonts/Bulgatti.ttf);
+}
+
 html {
     box-sizing: border-box;
     font-size: 62.5%;
@@ -57,34 +62,35 @@ html {
 /* Imagen */
 
 .imagen {
-    background-image: url(img/encabezado.jpeg);
+    background-image: url(img/encabezado.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     
-    box-shadow: 10px 10px 129px 56px rgba(0,0,0,0.75) inset;
+    box-shadow: 2px 3px 400px 12px rgba(0,0,0,1) inset;
 
     display: flex;
     flex-direction: column;
-    height: 40rem;
+    height: 70rem;
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
 }
 
-.imagen__logo {
+/* .imagen__logo {
     background-image: url(img/logo.png);
     background-size: cover;
     background-repeat: no-repeat;
     
-    height: 20rem;
+    height: 30rem;
     margin: 0 auto;
-}
+} */
 
 .imagen__titulo {
     font-size: 6rem;
-    color: var(--Secundario);
-    font-family: var(--fuente);
+    color: var(--Principal);
+    font-family: 'bulgatti';
+    padding: 0 0 5rem 0;
 }
 
 .imagen__subtitulo {
