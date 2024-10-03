@@ -31,9 +31,10 @@ html {
 
 .encabezado__logo {
     position: absolute;
-    left: -0.4rem; /* Ajusta la distancia desde el borde izquierdo */
+    left: 0; /* Ajusta la distancia desde el borde izquierdo */
     width: auto;
     height: 8rem;
+    margin: 0 2rem;
 }
 
 .encabezado__titulo {
