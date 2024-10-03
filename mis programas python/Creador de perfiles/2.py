@@ -1,5 +1,5 @@
 import os
-import keyboard
+# import keyboard
 
 
 def borrar_pantalla():
@@ -98,4 +98,5 @@ for Doc in documentacion:
 print("""  ______________________________""")
 print("")
 print("  Presiona Enter para salir...")
-keyboard.wait('enter')  # Espera a que el usuario presione Enter
+#keyboard.wait('enter')  # Espera a que el usuario presione Enter
+input("")
