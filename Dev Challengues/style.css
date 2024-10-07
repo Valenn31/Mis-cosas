@@ -1,0 +1,121 @@
+:root {
+    --CardBG: #212936;
+    --CardTitle: #E5E7EB;
+    --CardDesc: #9DA3AE;
+    --Background: #121826;
+
+    --circle1: #FCEED8;
+    --circle2: #DEE9FC;
+    --circle3: #FBE5E6;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url(dccl--html-css-simple-feature-section/Background_image.svg);
+    background-color: var(--Background);
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    text-align: center;
+}
+
+.header__title {
+    font-size: 5rem;
+    font-family: 'Outfit';
+    font-weight: 600;
+    margin-bottom: 0;
+    color: var(--CardTitle);
+}
+
+.header__subtitle {
+    font-family: 'Outfit';
+    font-weight: 400;
+    color: var(--CardDesc);
+    font-size: 2rem;
+}
+
+/* Main */
+
+.cards__cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    margin-top: 8rem;
+}
+
+@media (min-width: 1024px) {
+    .cards__cont {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+.card {
+    background-color: var(--CardBG);
+    
+    display: flex;
+    flex-direction: column;
+    
+
+    width: 40rem;
+    padding: 3rem;
+
+    border-radius: 1.8rem;
+}
+
+.card__circle {
+    width: 6rem;
+    height: 6rem;
+    margin: 0;
+
+    border-radius: 50%;
+}
+
+.card__circle--1 {
+    background-color: var(--circle1);
+}
+
+.card__circle--2 {
+    background-color: var(--circle2);
+}
+
+.card__circle--3 {
+    background-color: var(--circle3);
+}
+.card__title {
+    font-family: 'Outfit';
+    font-weight: 600;
+    color: var(--CardTitle);
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+.card__desc {
+    font-family: 'Outfit';
+    font-weight: 400;
+    color: var(--CardDesc);
+    font-size: 2rem;
+}
+
+.card__img {
+    border-radius: 1.8rem;
+}

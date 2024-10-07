@@ -1,5 +1,0 @@
-
-        Nombre:   Valentino
-        Apellido: Crescini
-        DNI:      46447012
-        Direccion Ocampo 668
