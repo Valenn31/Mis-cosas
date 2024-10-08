@@ -17,7 +17,7 @@
         <img class="header__img" src="dccl--html-css-device-eshop-checkout/background-image.png" alt="">
         <div class="header__info">
             <h1 class="header__title">Checkout</h1>
-            <h2 class="header__items">3 items</h2>
+            <h2 class="header__items">3 items </h2>
         </div>
 
     </header>
@@ -33,7 +33,7 @@
                     <h2 class="prod__name">Iphone 12 Pro</h2>
                     <p class="prod__price">$999.00</p>
                     <p class="prod__desc">Golden</p>
-                    <p class="prod__cant">X 1</p>
+                    <p class="prod__cant">x 1</p>
                     <img class="prod__close" src="dccl--html-css-device-eshop-checkout/close-icon.svg" alt="">
                 </div>
             </div>
@@ -45,7 +45,7 @@
                     <h2 class="prod__name">Apple Watch</h2>
                     <p class="prod__price">$399.00</p>
                     <p class="prod__desc">Blue</p>
-                    <p class="prod__cant">X 1</p>
+                    <p class="prod__cant">x 1</p>
                     <img class="prod__close" src="dccl--html-css-device-eshop-checkout/close-icon.svg" alt="">
                 </div>
             </div>
@@ -57,10 +57,12 @@
                     <h2 class="prod__name">iMac</h2>
                     <p class="prod__price">$1199.00</p>
                     <p class="prod__desc">Green</p>
-                    <p class="prod__cant">X 1</p>
+                    <p class="prod__cant">x 1</p>
                     <img class="prod__close" src="dccl--html-css-device-eshop-checkout/close-icon.svg" alt="">
                 </div>
             </div>
+            
+            <div class="barra__divisoria"></div>
 
             <form class="coupon">
                 <input class="coupon__input" type="text" placeholder="Enter coupon code">
@@ -68,29 +70,40 @@
             </form>
 
             <div class="payment__total">
-                <p>Sub Total</p>
-                <p>$2597.00</p>
-                <p>Tax</p>
-                <p>$623.28</p>
+                <p class="payment__color">Sub Total</p>
+                <p class="payment__cantidad payment__color">$2597.00</p>
+                <p class="payment__color">Tax</p>
+                <p class="payment__cantidad payment__color">$623.28</p>
                 <p>Total</p>
-                <p>$3220.28</p>
+                <p class="payment__cantidad">$3220.28</p>
             </div>
 
         </div> <!--payment-->
 
         <div class="contact">
 
-            <form action="">
-                <h2>Contact Information</h2>
-                <p>Firs & Last name</p>
-                <input type="text" placeholder="Enter first & last name">
-                <p>Email Address</p>
-                <input type="text" placeholder="Enter email address">
-                <p>Country</p>
-                <select name="" id=""></select>
-                <p>Postal Code</p>
-                <input type="text" placeholder="\00270">
-                <button type="submit">Continue</button>
+            <form class="form">
+                <h2 class="form__title">Contact Information</h2>
+                
+                <p class="form__name fontsize">First & Last name</p>
+                <input class="form__name--input form__border" type="text" placeholder="Enter first & last name">
+
+                <p class="form__email fontsize">Email Address</p>
+                <input class="form__email--input form__border" type="text" placeholder="Enter email address">
+                
+                <p class="form__country fontsize">Country</p>
+                <p class="form__pcode fontsize" fontsize>Postal Code</p>
+                <select class="form__country--select form__border"name="" id="">
+                    <option value="value" disabled>--Select--</option>
+                    <option value="value1">Argentina</option>
+                    <option value="value2">Brasil</option>
+                    <option value="value3">Peru</option>
+                </select>
+
+                
+                <input class="form__pcode--input form__border" type="text" placeholder="\00270">
+
+                <button class="form__buton" type="submit">Continue</button>
             </form>
 
 
